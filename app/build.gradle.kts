@@ -19,7 +19,11 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-    }
+        buildFeatures {
+            viewBinding = true
+            dataBinding = true
+
+        }
 
     buildTypes {
         release {
@@ -109,5 +113,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit.v115)
     androidTestImplementation(libs.androidx.espresso.core.v351)
-
+}
 }
