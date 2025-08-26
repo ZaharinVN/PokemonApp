@@ -85,6 +85,7 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx.v276)
     implementation(libs.androidx.navigation.ui.ktx)
 
+
     // Room для локального кэширования
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
@@ -114,4 +115,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit.v115)
     androidTestImplementation(libs.androidx.espresso.core.v351)
 }
+}
+dependencies {
+    implementation(libs.androidx.gridlayout)
+    implementation(libs.androidx.navigation.compose.jvmstubs)
 }
